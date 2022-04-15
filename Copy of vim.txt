@@ -1,0 +1,104 @@
+3 modes
+
+1. Command mode
+gg	:	top of the file
+shift+g	:	bottom of the file
+yy	:	copies single line
+p	:	prints the copied line
+5p	:	prints the copied line for 5 times
+dd	:	deletes the line
+3dd	:	deletes three lines
+u	:	undo
+/word	:	finds the particular word
+
+
+2. Insert mode
+i	:	It will insert the data / constant cursor position
+I	:	Moves to begining of the line
+a	:	one char ahead of existing
+A	:	moves tp the end of the line
+o	:	moves down to that line
+O	:	moves up to that line
+
+3. Save mode
+:w	:	save
+:q	:	quit
+:wq	:	save and exit
+:w!	:	forcefully save
+:q!	:	forcefully quit
+:wq!	:	forcefully save and exit 
+
+
+vim -o file1 file2
+vim -O file1 file2
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-rw-r--r-- 1 root root 72 Nov 12 14:17 file1
+
+linux files types
+-	:	regular file
+b	:	blocked file
+c	:	character file
+d	:	directory
+|	:	pipeline	(file1 -- > output file2 -- > input)
+cmd1 | cmd2
+
+PERMISSIONS
+-	rw-	r--	r-- 1 root root  18 Sep 29 01:59 file1
+-	 	: 	type of the file
+rw-r--r--	:	permission part
+1		: 	ACL
+root		:	Owner of the file
+root		:	Group owner
+72		:	File size
+Nov 12 14:17	:	Details of file creation
+file1		:	filename
+
+
+Read	:	r	:	4
+Write	:	w	:	2
+execute	:	x	:	1
+
+
+
+rw-	:	user	:6
+r--	:	Group	:4
+r--	:	others	:4
+
+rwx:7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
